@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>¡Feliz Cumpleaños!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="intro">
+    <h1 class="textP">¡Hoy es un día especial!</h1>
+    <h3 class="textP">pide un deseo y luego apaga las velas</h1>
+    <img src="img/torta.png" id="torta" alt="Torta de cumpleaños"/>
+    <br>
+    <button id="apagarVela">Apagar velas 🎂</button>
+  </div>
+
+  <audio id="sonidoCumple" src="pastel.mp3"  loop></audio>
+
+  <div id="contenido" class="oculto">
+    <h2 class="textP">¡Feliz cumpleaños <b class="text_color_2">Celeste! </b>🎉🎈</h2>
+    <p class="textP">Espero que tengas un día increíble, lleno de alegría y sorpresas.</p>
+        <div class="conten1">
+            <p class="textP text_color_1" style="font-size: larger !important;">
+                FUAAA 27!!
+            </p>
+            <img src="img/g0.jpg" alt="gato" class="g0">
+        </div>
+
+    <div id="globos-container"></div>
+
+    <div class="carrusel">
+        <div class="slides-container">
+            <div class="slide active">
+                <p class="textP">Fuaa 27</p>
+                <img src="img/foto1.png" alt="Fuaa27">
+            </div>
+            <div class="slide">
+                <p class="textP">Estilo Simpson</p>
+                <img src="img/foto2.png" alt="Simpson">
+            </div>
+            <div class="slide">
+                <p class="textP">Un deseo!</p>
+                <img src="img/foto3.png" alt="Undeseo">
+            </div>
+            <div class="slide">
+                <p class="textP">ATENCION DARLE CLIC</p>
+                <button class="boton_2"> <a href="happy.html">Happy Birthday Bonus</a></button>
+            </div>
+        </div>
+      <button id="prev">◀</button>
+      <button id="next">▶</button>
+    </div>
+
+    <br>
+    <button> <a href="/">Apagar vela de nuevo 🎂</a></button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
